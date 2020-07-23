@@ -1,0 +1,31 @@
+<!-- <view>{{username}}</view>
+
+<view>{{hello}}</view>
+不能被渲染
+
+<view wx:for="{{books}}">
+  {{item}}
+</view>
+
+<button bindtap="onButtonTap">跳转</button> -->
+
+<!-- WXS语法 -->
+<!-- <wxs module="m">
+  var getWeekDay = function (day) {
+  var weekdays = ["星期一","星期二","星期三","星期四","星期五","星期六","星期天",];
+  var weekday = "";
+  if(day > 0 && day < 8) {
+      weekday = weekdays[day-1];
+  }else {
+      weekday = "错误的日期";
+  }
+  return weekday;
+  }
+
+  module.exports.getWeekDay = getWeekDay;
+</wxs> -->
+<wxs src="index.wxs" module="m"></wxs>
+
+
+<view>{{m.getWeekDay(day)}}</view>
+<!-- <view>{{weekday}}</view> -->

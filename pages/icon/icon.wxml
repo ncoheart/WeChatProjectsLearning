@@ -1,0 +1,15 @@
+<!-- <icon type="success_no_circle"></icon>
+<icon type="success"></icon>
+<icon type="info"></icon>
+<icon type="warn"></icon>
+<icon type="waiting"></icon>
+<icon type="cancel"></icon>
+<icon type="download"></icon>
+<icon type="search"></icon>
+<icon type="clear"></icon> -->
+
+<view class="container">
+    <icon type="warn" size="100"></icon>
+    <view class="tips">操作失败</view>
+    <button type="warn" class="finish-btn">我已知晓</button>
+</view>

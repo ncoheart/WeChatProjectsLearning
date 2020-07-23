@@ -1,0 +1,28 @@
+{
+    "pages": [
+        "pages/progressview/progressview",
+        "pages/buttonview/button/view",
+        "pages/richtext/richtext",
+        "pages/textview/textview",
+        "pages/searchbar/searchbar",
+        "pages/icon/icon",
+        "pages/leftSlide/leftSlide",
+        "pages/movableview/movableview",
+        "pages/swiper/swiper",
+        "pages/scrollView/scrollView",
+        "pages/time/time",
+        "pages/index/index",
+        "pages/weibo/list/list",
+        "pages/weibo/add/add",
+        "pages/mine/mine",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,13 @@
+<scroll-view class="sv" scroll-x="{{true}}">
+    <view class="sv-item bg_red"></view>
+    <view class="sv-item bg_blue"></view>
+    <view class="sv-item bg_green"></view>
+    <view class="sv-item bg_orange"></view>
+</scroll-view>
+
+<scroll-view class="sv-y" scroll-y="{{true}}" scroll-into-view="orange" enable-back-to-top="{{true}}" scroll-with-animation="" bindscrolltoupper="toTopY">
+    <view class="sv-item-y bg_red"></view>
+    <view class="sv-item-y bg_blue"></view>
+    <view class="sv-item-y bg_green"></view>
+    <view class="sv-item-y bg_orange" id="orange"></view>
+</scroll-view>

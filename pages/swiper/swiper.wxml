@@ -1,0 +1,15 @@
+<swiper class="Swiper" autoplay="{{true}}" indicator-dots indicator-color="rgba(255,255,255,.3)" indicator-active-color="#fff" style="height:{{height*2}}rpx; width:{{width*2}}rpx;" current="2" display-multiple-items="2">
+    <swiper-item>
+        <image src="http://www.njupt.edu.cn/_upload/article/images/0a/67/5f7891b64303959254b274a4bfbe/31bd3fb7-9fc5-4154-9f60-a881b1fe7927.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="http://www.njupt.edu.cn/_upload/article/images/8e/4a/5ffd810441e58f956aa1b3dfd33c/f2fad7b3-2094-4d83-8eeb-1aee5af68f25.png"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="http://www.njupt.edu.cn/_upload/article/images/91/17/512e099046eabc3a13780f00628b/8a78260f-bc8e-4b08-87d9-a44ee33cc795.png"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="http://www.njupt.edu.cn/_upload/article/images/c5/3b/581accc945e99be4728b500dbbff/4785b916-8ab5-4179-bafd-7b3c5d20ebe8.jpg"></image>
+    </swiper-item>
+</swiper>
+

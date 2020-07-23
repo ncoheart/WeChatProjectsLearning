@@ -1,0 +1,8 @@
+<movable-area class="area">
+    <movable-view class="view" direction="all" out-of-bounds damping="40" inertia scale>
+        可移动
+    </movable-view>
+    <movable-view class="view" direction="all" out-of-bounds damping="40" inertia scale>
+        可移动
+    </movable-view>
+</movable-area>

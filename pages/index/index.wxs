@@ -1,0 +1,12 @@
+var getWeekDay = function (day) {
+var weekdays = ["星期一","星期二","星期三","星期四","星期五","星期六","星期天",];
+var weekday = "";
+if(day > 0 && day < 8) {
+    weekday = weekdays[day-1];
+}else {
+    weekday = "错误的日期";
+}
+return weekday;
+}
+
+module.exports.getWeekDay = getWeekDay;

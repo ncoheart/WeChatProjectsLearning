@@ -1,0 +1,10 @@
+<view class="listview">
+    <view class="itemview">
+        <movable-area class="movablearea" style="width:{{(width-100)*2}}rpx;">
+            <movable-view class="movableview" direction="horizontal" style="width:{{width*2}}rpx" out-of-bounds bindtouchstart="onTouchStart" bindtouchend="onTouchEnd" bindchange="onChange" x="{{left*2}}rpx" damping="100">
+                周杰伦
+            </movable-view>
+        </movable-area>
+        <view class="deleteview">删除</view>
+    </view>
+</view>

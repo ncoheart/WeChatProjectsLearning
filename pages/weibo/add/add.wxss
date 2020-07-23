@@ -1,0 +1,4 @@
+/* pages/weibo/add/add.wxss */
+textarea {
+    padding: 10rpx;
+}
