@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        value: 20
     },
 
     /**
@@ -62,5 +62,11 @@ Page({
      */
     onShareAppMessage: function () {
 
+    },
+
+    onTap: function(e) {
+        this.setData({
+            value: 70
+        })
     }
 })

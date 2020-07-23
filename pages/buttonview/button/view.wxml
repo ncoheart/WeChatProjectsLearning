@@ -1,1 +1,14 @@
-<button>完成</button>
+<!-- <button size="mini" loading>完成</button> -->
+
+<!-- 上拉加载案例 -->
+
+
+<view style="font-size: 60rpx; text-align: center;">瞬眼播报</view>
+
+<block class="article-group" wx:for="{{newses}}">
+    <view class="article-item">
+        <view class="title">{{index + 1}}.{{item.title}}</view>
+        <view class="time">{{item.time}}</view>
+    </view>
+</block>
+<button class="loading" loading style="display: {{flag}};">正在加载</button>

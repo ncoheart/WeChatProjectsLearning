@@ -1,1 +1,25 @@
-/* pages/buttonview/button/view.wxss */
+.loading {
+    border: none;
+    color: #ccc;
+    background-color: transparent;
+}
+
+.loading::after {
+    border: none;
+}
+
+.article-item {
+    border: 1px solid #ccc;
+    margin: 40rpx;
+}
+.title {
+    color: teal;
+    font-size: 30rpx;
+    padding: 0 30rpx;
+}
+
+.time {
+    color: #777;
+    font-size: 30rpx;
+    text-align: end;
+}

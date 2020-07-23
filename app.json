@@ -1,7 +1,7 @@
 {
     "pages": [
-        "pages/progressview/progressview",
         "pages/buttonview/button/view",
+        "pages/progressview/progressview",
         "pages/richtext/richtext",
         "pages/textview/textview",
         "pages/searchbar/searchbar",
